@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Profile</title>
+    <link rel="stylesheet" href="../css/student_profile.css">
+</head>
+<body>
+    <h1>Student Profile</h1>
+
+    <section>
+        <h2>User Profile</h2>
+        <div>
+            <label>Name:</label>
+            <span id="user-name"></span>
+        </div>
+        <div>
+            <label>Email:</label>
+            <span id="user-email"></span>
+        </div>
+        <div class="img-div">
+            <label>Profile Picture</label>
+            <img src="" alt="Profile Picture" id="profile-picture">
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Course Enrollment History</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Course</th>
+                    <th>Description</th>
+                    <th>Tutor</th>
+                    <th>Enrollment Date</th>
+                </tr>
+            </thead>
+            <tbody id="enrollment-history"></tbody>
+        </table>
+    </section>
+
+    <script src="../js/student_profile.js"></script>
+</body>
+</html>
