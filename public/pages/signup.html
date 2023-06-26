@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+
+<body>
+    <h1>Sign Up</h1>
+    <div class="container">
+        <form id="signupForm" method="POST" action="../../controllers/signup.php" enctype="multipart/form-data">
+            <p id="message"></p>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname" required>
+
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname" required>
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="password">Password</label>
+            <input type="password" name="password" id="password" required>
+
+            <label for="profile_pic">Choose a profile image:</label>
+            <input type="file" id="profile_pic" name="profile_pic">
+
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="Student">Student</option>
+                <option value="Tutor">Tutor</option>
+            </select>
+            
+            <button type="submit">Submit</button>
+            <p>Already have an account? <a class="signup-link" href="login.html">Sign in</a></p>
+        </form>
+    </div>
+    <script src="../js/signup.js"></script>
+</body>
+
+</html>
