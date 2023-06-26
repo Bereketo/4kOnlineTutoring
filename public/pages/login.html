@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../../public/css/login.css">
+</head>
+<body>
+    <h1>Login Page</h1>
+    <div>
+        <form id="loginForm" method="POST" action="../../controllers/login.php">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+    
+            <label for="role">Role:</label>
+            <select id="role" name="role" required>
+                <option value="Student">Student</option>
+                <option value="Tutor">Tutor</option>
+            </select>
+    
+            <button type="submit"> Login </button>
+            <p id="error"></p>
+            <p>Don't have an account? <a class="signup-link" href="signup.html">Sign Up</a></p>
+        </form>
+    </div>
+    <script src="../js/login.js"> </script>
+</body>
+</html>
+
