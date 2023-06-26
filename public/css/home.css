@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+#hero{
+    height:900px;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("/public/images/perfecto.avif");
+}
+#content{
+     background-color:rgba(214, 155, 142,0.2);
+     box-sizing: border-box;
+     width:800px;
+     height:400px;
+     box-shadow: 1px 4px 8px rgb(241, 210, 210);
+     border-radius: 30px;
+     position:relative;
+     top:25%;
+     margin:0 auto;
+     text-align: center;
+     padding-top:50px;
+}
+#content h1{
+  color:rgb(2, 65, 102);
+  font-size:32pt;
+  box-sizing: border-box;
+  padding: 0 100px;
+  width:100%;
+}
+#content p{
+    font-size:20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 0 50px;
+}
+#content input{
+    border-radius: 10px;
+    height: 30px;
+    width:40%;
+    border-color:rgb(214, 155, 142)
+}
+#content button{
+    width:100px;
+    height:30px;
+    border-radius:50px;
+    background-color: white;
+    font-size: 12pt;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+    
